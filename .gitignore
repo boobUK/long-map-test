@@ -1,0 +1,6 @@
+.idea/
+long-map.iml
+/target/
+/bin/
+/.project
+/.classpath
