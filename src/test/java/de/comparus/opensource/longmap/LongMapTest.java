@@ -83,8 +83,9 @@ public class LongMapTest {
 
 	@Test
 	public void whenContainsValueAbsentShouldFalse() {
+		putIntegerAmountValues(RESTRICTED);
 		longMap.put(MAX_INTEGER, DEFAULT_AMOUNT * MINUS_ONE);
-		assertFalse(longMap.containsValue(DEFAULT_AMOUNT));
+		assertFalse(longMap.containsValue(0));
 	}
 
 	@Test
