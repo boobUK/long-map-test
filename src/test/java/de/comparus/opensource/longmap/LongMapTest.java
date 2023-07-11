@@ -18,7 +18,7 @@ public class LongMapTest {
 	private final long MIN_LONG = Long.MIN_VALUE;
 	private final int MAX_INTEGER = Integer.MAX_VALUE;
 	private final int MIN_INTEGER = Integer.MIN_VALUE;
-	private final int MINUS_ONE = -1;;
+	private final int MINUS_ONE = -1;
 	private final int DEFAULT_AMOUNT = 100;
 	private final int TEST_LOW_CAPACITY = 5;
 
